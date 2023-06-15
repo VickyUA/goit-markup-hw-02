@@ -157,6 +157,9 @@ h2, h3 {
 
 .portfolio-btn {
     color: #4D5AE5;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .portfolio-list {}
