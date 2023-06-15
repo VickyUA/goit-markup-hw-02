@@ -1,5 +1,25 @@
+:root {
+    --brand-color-main: #2E2F42;
+    --brand-color-submain: #434455;
+}
+
+/**
+  |============================
+  | Reset
+  |============================
+*/
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+ul, ol {
+    list-style-type: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    line-height: 1.5;
 }
 
 .section {}
@@ -14,7 +34,14 @@ body {
 
 .header-nav {}
 
-.header-logo {}
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: var(--brand-color-main);
+}
+.logo-color {
+    color: #4D5AE5;
+}
 
 .header-list {}
 
@@ -33,7 +60,7 @@ body {
 */
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--brand-color-main);
 }
 
 .hero-title {
@@ -58,3 +85,76 @@ body {
 .benefits-list-item {}
 
 .benefits-item-title {}
+
+/**
+  |============================
+  | What we do styles
+  |============================
+*/
+.section {}
+
+.what-we-do {}
+
+.what-we-do-title {}
+
+.what-we-do-list {}
+
+.what-we-do-list-item {}
+
+/**
+  |============================
+  | Our team styles
+  |============================
+*/
+.section {}
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-list-title {}
+
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+
+.portfolio {}
+
+.section {}
+
+.portfolio-title {}
+
+.portfolio-list-btn {}
+
+.portfolio-btn {}
+
+.portfolio-list {}
+
+.portfolio-list-item {}
+
+.portfolio-list-title {}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+.footer {
+    background-color: var(--brand-color-main);
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        color: #F4F4FD;
+    }
+    
+.footer-text {
+    color: #F4F4FD;
+}
