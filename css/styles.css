@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {}
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+
+.header {}
+
+.header-nav {}
+
+.header-logo {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+.header-address-list {}
+
+.header-address-link {}
+
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.hero-btn {}
+
+/**
+  |============================
+  | Benefits styles
+  |============================
+*/
+.section {}
+
+.benefits {}
+
+.benefits-title {}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-item-title {}
