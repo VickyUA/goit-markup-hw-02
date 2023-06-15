@@ -72,10 +72,10 @@ h2, h3 {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-link.link:hover {
+.header-link:hover {
 color: #404BBF;
 }
-.header-link.link:focus {
+.header-link:focus {
 color: #404BBF;
 }
 
