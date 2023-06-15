@@ -8,6 +8,7 @@
   | Reset
   |============================
 */
+
 a {
     text-decoration: none;
     font-style: normal;
@@ -16,13 +17,19 @@ ul, ol {
     list-style-type: none;
 }
 
+/**
+  |============================
+  | Common styles
+  |============================
+*/
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     line-height: 1.5;
 }
-
-.section {}
+h2, h3 {
+    color: var(--brand-color-main);
+}
 
 /**
   |============================
@@ -47,11 +54,19 @@ body {
 
 .header-item {}
 
-.header-link {}
+.header-link {
+    font-weight: 500;
+    color: var(--brand-color-main);
+}
 
-.header-address-list {}
+.header-address {}
 
-.header-address-link {}
+.header-address-list {
+}
+
+.header-address-link {
+    color: #434455;
+}
 
 /**
   |============================
@@ -67,7 +82,10 @@ body {
     color: #FFFFFF;
 }
 
-.hero-btn {}
+.hero-btn {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
 
 /**
   |============================
@@ -84,7 +102,12 @@ body {
 
 .benefits-list-item {}
 
-.benefits-item-title {}
+.benefits-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 
 /**
   |============================
@@ -132,7 +155,9 @@ body {
 
 .portfolio-list-btn {}
 
-.portfolio-btn {}
+.portfolio-btn {
+    color: #4D5AE5;
+}
 
 .portfolio-list {}
 
