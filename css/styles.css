@@ -142,7 +142,8 @@ h2, h3 {
 .benefits-item-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .benefits-text {
     letter-spacing: 0.02em;
@@ -182,8 +183,8 @@ h2, h3 {
 
 .team-title {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -195,7 +196,12 @@ h2, h3 {
     background-color: #FFFFFF;
 }
 
-.team-list-title {}
+.team-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 .team-text {
     font-size: 16px;
