@@ -67,6 +67,9 @@ h2, h3 {
 .header-address-link {
     color: #434455;
 }
+.header-address-link:hover, .header-address-link:focus {
+    color: #404BBF;
+}
 
 /**
   |============================
@@ -85,6 +88,10 @@ h2, h3 {
 .hero-btn {
     color: #FFFFFF;
     background-color: #4D5AE5;
+    cursor: pointer;
+}
+.hero-btn:hover, .hero-btn:focus {
+    background-color:#404BBF;
 }
 
 /**
@@ -160,6 +167,11 @@ h2, h3 {
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer;
+}
+.portfolio-btn:hover, .portfolio-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 .portfolio-list {}
