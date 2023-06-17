@@ -141,6 +141,7 @@ color: var(--pressed-state);
 .benefits-title {
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--dark);
 }
 
 .benefits-list {}
@@ -172,6 +173,7 @@ color: var(--pressed-state);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--dark);
 }
 
 .what-we-do-list {}
@@ -196,6 +198,7 @@ color: var(--pressed-state);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--dark);
 }
 
 .team-list {}
@@ -209,6 +212,7 @@ color: var(--pressed-state);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--dark);
 }
 
 .team-text {
